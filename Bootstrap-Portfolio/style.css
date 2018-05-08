@@ -1,0 +1,20 @@
+body{
+background-image: url(squairy_light.png);
+}
+
+.navbar-brand{
+    font-family: Georgia;
+}
+
+@media all (max-width: 980px) {
+
+}
+
+@media all and (max-width: 768px) {
+    
+}
+
+@media all and (max-width: 640px) {
+    display: static;
+}
+
