@@ -1,41 +1,68 @@
 body{
-    background-image: url("squairy_light.png");
-    background-color: #cccccc;
+    background-image: url('../../Assets/Images/axiom-pattern.png');
+    background-color: rgb(60, 43, 39);
+    
 }
 
+#spacer{
+    
+    border-bottom: 2px solid lightgrey;
+    padding: 5px 5px 0 0;
+}
 
+.placeholder{
+
+    padding: 15px;
+
+}
 
 #Header{
     position: absolute;
     Width: 100%;
     Border-bottom: 2px solid lightgrey;
-    background-color: seashell;
+    background-color: black;
 }
 
 .box{
-    color: #4aaaa5;
+    color: rgb(14, 88, 162);
 }
 
-#logo{
-position: absolute;
-Border: 1px solid #cccccc;
-padding: 20px;
-background-color: #4aaaa5;
-left: 50px;
-text-decoration: none;
-color: white;
-font-family: 'Georgia', Times, Times New Roman, serif;
+#name{
+    font: 400 35px/0.8 'Great Vibes', Helvetica, sans-serif;
+    align: center;
+    position: absolute;
+    padding: 20px;
+    color: #4aaaa5;;
+    text-decoration: none;
+    text-shadow: 4px 4px 3px rgba(255, 255, 255, 0.208); 
 }
 
 .nav{
 padding: 20px;
-Float: right;
 text-decoration: none;
+color: #4aaaa5;
+text-align: center;
+word-spacing: 20px;
+font: times, Helvetica, sans-serif;
 }
 
 #navi{
     text-decoration: none;
-    color: grey;
+    color: #4aaaa5;
+    text-align: center;
+}
+
+#navi:hover{
+color: lightgrey;
+}
+
+p{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+h2{
+    color: #4aaaa5;
 }
 
 .heading{
@@ -54,7 +81,8 @@ position: relative;
 Border: 1px solid none;
 padding: 20px;
 width: 960px;
-background-color: seashell;
+height: auto;
+background-color: black;
 align: center;
 }
 
@@ -68,7 +96,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: seashell;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 15px;
