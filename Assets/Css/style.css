@@ -4,6 +4,31 @@ body{
     
 }
 
+#right-section{
+position: absolute;
+border-left:2px solid lightgrey;
+height: 525px;
+margin-left: 45%;
+margin-top: -30.5%;
+}
+
+.portfolio-header{
+    margin-bottom: 25%;
+}
+
+.Portfolio-a{
+    
+    margin-left: 38%;
+    font-size:60px;
+    position: absolute;
+    color: #4aaaa5;;
+    text-decoration: none;
+    text-shadow: 4px 4px 3px rgb(0, 0, 0); 
+    letter-spacing: 8px;
+    margin-top: 10%;
+    
+}
+
 #spacer{
     
     border-bottom: 2px solid lightgrey;
@@ -59,20 +84,45 @@ color: lightgrey;
 p{
     font-size: 15px;
     color: whitesmoke;
+    padding: 5px;
 }
 
-h2{
+h2,{
     color: #4aaaa5;
+    font-size: 50px;
+    
 }
 
-.heading{
-    border-bottom: 5px solid lightgrey;
+.about{
+    margin-left: 10%;
+    letter-spacing: 3px;
+}
+
+.p2{
+    font-size: 12px;
+    margin-right: 50%;
+  padding: 15px 0 0 0;
+  font-weight: bold;
+}
+
+.p3{
+    font-size: 12px;
+    margin-left: 17%;
+    font-weight: bold;
+}
+
+.heading{ 
     padding: 20px;
     color: #4aaaa5;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 40px;
 
 }
+
+h3, h4{
+
+    padding: 5px;
+}
+
 
 #Main-container{
 top: 80px;
@@ -81,7 +131,7 @@ position: relative;
 Border: 1px solid none;
 padding: 20px;
 width: 960px;
-height: auto;
+height: 500px;
 background-color: black;
 align: center;
 }
