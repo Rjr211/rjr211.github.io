@@ -22,6 +22,6 @@ function typeText(element, speed){
 
 var elementToWrite = document.getElementById("text");
 
-var speedOfEffect = 150;
+var speedOfEffect = 200;
 
 this.typeText(elementToWrite, speedOfEffect);
