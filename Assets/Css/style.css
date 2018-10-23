@@ -92,3 +92,17 @@ font-family: 'Ledger', serif;
 font-size: 50px;
 
   }
+
+  .icon{
+    width: 225px;
+    height: 66px;
+    margin-left: -50px;
+  }
+
+  .center{
+      color:#cfd8dc;
+  }
+
+  .me{
+      width: 300px;
+  }
