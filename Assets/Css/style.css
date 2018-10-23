@@ -1,5 +1,6 @@
 nav.nav-center ul {
     text-align: center;
+  
 }
 nav.nav-center ul li {
     display: inline;
@@ -14,14 +15,17 @@ nav.nav-center ul li a {
     
 }
 
+
 nav{
-    border-bottom: 3px solid rgba(230, 230, 230, 0.87);
+    border-bottom: 1.5px solid #ff1744;
+
 }
 
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+
   }
 
   main {
@@ -29,8 +33,60 @@ body {
   }
 
   footer{
-        position: fixed;
+    position: relative;
     bottom:0;
     left:0;
+    width: 100%;
    }
-      
+
+.brand-logo{
+    font-family: 'Playfair Display', serif;
+}  
+
+.footer-copyright{
+
+    border-top: 1px solid #cfd8dc;
+
+}
+
+#nav-mobile {
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+    color: #cfd8dc;
+  -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+#nav-mobile:after {
+	content: "";
+	background-color: tomato;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+#nav-mobile:hover {
+	color: #ff1744;
+}
+
+#nav-mobile:hover:after {
+	width: 100%;
+}
+
+
+
+.parallax-container .parallax img {
+    opacity: 100;
+}
+
+
+.parallax-container {
+    height: 390px;;
+  }
+
+  .name{
+z-index: 200px;
+
+  }
