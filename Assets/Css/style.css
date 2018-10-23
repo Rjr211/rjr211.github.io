@@ -87,6 +87,8 @@ body {
   }
 
   .name{
-z-index: 200px;
+color: #cfd8dc;
+font-family: 'Ledger', serif;
+font-size: 50px;
 
   }
