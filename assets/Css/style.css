@@ -22,6 +22,11 @@ nav{
 margin-top: 30px;
 }
 
+.row1{
+    border-bottom: 1.5px solid #ff1744;
+}
+
+
 
 p{
     font-family: 'Ledger', serif;
@@ -86,7 +91,7 @@ body {
 
 .footer-copyright{
 
-    border-top: 1px solid #cfd8dc;
+    border-top: 1px solid #ff1744;
 
 }
 
@@ -139,8 +144,14 @@ h4 ,h5, h6, #hello{
     font-family: 'Ledger', serif;
 }
 
+.bb{
+width: 400px;
+}
+
+
+
 .parallax-container {
-    height: 460px;
+    height: 420px;
   }
 
 
@@ -148,8 +159,11 @@ h4 ,h5, h6, #hello{
 color: #cfd8dc;
 font-family: 'Ledger', serif;
 
-
   }
+
+.paper{
+
+}
 
   .icon{
     width: 300px;
