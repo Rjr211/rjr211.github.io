@@ -10,15 +10,21 @@ nav.nav-center ul li a {
     display: inline-block;
 }
 
-.brand-logo{
-    margin-left: 35px;
-    
+#top-name{
+    margin-left:60px
 }
-
 
 nav{
     border-bottom: 1.5px solid #ff1744;
+}
 
+.head{
+margin-top: 30px;
+}
+
+
+p{
+    font-family: 'Ledger', serif;
 }
 
 body {
@@ -39,9 +45,44 @@ body {
     width: 100%;
    }
 
+#about-me{
+    font-family: 'Ledger', serif; 
+    margin-top: 12px;
+}
+
+
+#header{
+    font-size: 23px;
+    margin-right: 2.5px;
+}
+
+#header-name{
+    font-family: 'Ranga'; 
+    color: #ff1744;
+    font-size: 26px;
+}
+
+.rutgers{
+    font-weight: bold;
+}
+
 .brand-logo{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ranga'; 
+    color: #ff1744;
+    margin-left: 20px;
+    font-size: 25px;
 }  
+
+#btn-1{
+
+    margin-top: 15px;
+  margin-right: 40px; 
+    
+}
+
+#resume{
+    margin-top: -20px;
+}
 
 .footer-copyright{
 
@@ -50,11 +91,13 @@ body {
 }
 
 #nav-mobile {
-  font-family: Verdana, sans-serif;
+    font-family: 'Ledger', serif;
   text-decoration: none;
     color: #cfd8dc;
   -webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin-left: 128px;
+    
 }
 
 #nav-mobile:after {
@@ -81,22 +124,37 @@ body {
     opacity: 100;
 }
 
+.fa-location-arrow{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px #a3a3a3 solid;
+    border-radius: 75%;
+    color: #454545;
+    padding: 10px;
+}
+
+h4 ,h5, h6, #hello{
+    font-family: 'Ledger', serif;
+}
 
 .parallax-container {
-    height: 390px;;
+    height: 460px;
   }
+
 
   .name{
 color: #cfd8dc;
 font-family: 'Ledger', serif;
-font-size: 50px;
+
 
   }
 
   .icon{
-    width: 225px;
-    height: 66px;
-    margin-left: -50px;
+    width: 300px;
+    height: 60px;
+    margin-left: -100px;
   }
 
   .center{
@@ -105,4 +163,12 @@ font-size: 50px;
 
   .me{
       width: 300px;
+      position: center;
+      margin-left: auto;
+      margin-right: auto;
   }
+
+#icon{
+    color: grey;
+}
+
