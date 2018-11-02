@@ -201,3 +201,20 @@ font-family: 'Ledger', serif;
     color: grey;
 }
 
+/* scroll up button style*/
+.scrollUp {
+    padding: 12px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    position: fixed;
+    bottom: 75px;
+    right: 45px;
+    display: none;
+    background: #ff1744;
+    border-radius: 50%;
+}
+
+.scrollUp:hover {
+    text-decoration: none;
+}
