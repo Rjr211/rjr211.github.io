@@ -3,6 +3,12 @@ $(document).ready(function(){
   $('.parallax').parallax();
 });
 
+//modal function
+$(document).ready(function(){
+  $('.modal').modal();
+});
+        
+
 $(document).ready(function () {
 
   //Check to see if the window is top if not then display button

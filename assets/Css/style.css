@@ -7,6 +7,7 @@ tr{
    color: red;
 }
 
+
 nav.nav-center ul {
     text-align: center;
   
@@ -31,11 +32,9 @@ nav{
 margin-top: 30px;
 }
 
-.row1{
-    border-bottom: 1.5px solid #ff1744;
+.page-footer{
+    border-top: 1.5px solid #ff1744;
 }
-
-
 
 p{
     font-family: 'Ledger', serif;
@@ -138,7 +137,9 @@ body {
 	width: 100%;
 }
 
-
+.card-content{
+    border-top: 1px solid #ff1744;
+}
 
 .parallax-container .parallax img {
     opacity: 100;
@@ -155,7 +156,7 @@ body {
     padding: 10px;
 }
 
-h4 ,h5, h6, #hello{
+h3, h4 ,h5, h6, #hello{
     font-family: 'Ledger', serif;
 }
 
@@ -163,6 +164,14 @@ h4 ,h5, h6, #hello{
 width: 400px;
 }
 
+#skill{
+    font-family: 'Ranga'; 
+    color: #ff1744;
+}
+
+#my-skill{
+    height: 325px;
+}
 
 
 .parallax-container {
@@ -176,8 +185,8 @@ font-family: 'Ledger', serif;
 
   }
 
-.paper{
-
+.fa-breifcase{
+    color: black;
 }
 
   .icon{
@@ -196,6 +205,16 @@ font-family: 'Ledger', serif;
       margin-left: auto;
       margin-right: auto;
   }
+
+.col-1{
+    border-right: 1px solid #ff1744;
+
+}
+
+.col-2{
+    border-right: 1px solid #ff1744;
+}
+
 
 #icon{
     color: grey;
@@ -218,3 +237,30 @@ font-family: 'Ledger', serif;
 .scrollUp:hover {
     text-decoration: none;
 }
+
+.fa-tablet {
+    margin: 0 auto;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+  
+/* stretch animation*/
+
+  @keyframes stretch {
+    0% {
+      transform: scale(.5);
+    }
+    50% {
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
