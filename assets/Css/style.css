@@ -139,6 +139,14 @@ body {
 
 .card-content{
     border-top: 1px solid #ff1744;
+    height: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ff1744;
+}
+
+.card.medium{
+height: auto !important;
+color: black;
 }
 
 .parallax-container .parallax img {
