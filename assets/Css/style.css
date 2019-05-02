@@ -1,3 +1,10 @@
+form{
+    width: 75% !important;
+    margin-left: 11% !important;
+    margin-right: 11% !important;
+ 
+}
+
 td {
     color: white;
 }

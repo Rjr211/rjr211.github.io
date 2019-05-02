@@ -11,11 +11,13 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
       crossorigin="anonymous">
-
+<!--Google Material icons cdn-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+<!--Materialize Cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!--Custom Css-->
     <link rel="stylesheet" type="text/css" href="assets/Css/style.css">
+    <!--Google fonts cdn-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Ranga" rel="stylesheet">
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -88,7 +90,7 @@
             <p style="display: inline;" >I'm a full stack developer with a focus on the front-end. I have a strong foundation in HTML5, CSS3, and JavaScript
               as well as proficiency in Node/Express and more. After graduating in May 2018 I immediately
               enrolled in Rutgers Coding Bootcamp which has prepared me with industry-level knowledge and skills that are constantly being improved on. Other than being a passionate developer, I am an NBA fan, sneakerhead, foodie and a long list of many other things.
-              Im inspired by the world of technology and eager to learn to take my skills to greater heights. <p class="lets-talk" style="display: inline;"><a href="#" style="color: red;">lets talk!</a></p> </p>
+              Im inspired by the world of technology and eager to learn and take my skills to greater heights. <p class="lets-talk" style="display: inline;"><a href="#letstalk" style="color: red;">lets talk!</a></p> </p>
           </div>
         </div>
       </div>
@@ -277,27 +279,36 @@
 <!--Contact row-->
 <div class="parallax-container" id="my-skill">
     <div class="row row1 center">
-<h3 id="skill">Lets Talk!</h3>
-      <div class="col s4 col-1">
-        <!-- Promo Content 1 goes here -->
-      
-        <i class="fa fa-code fa-3x" aria-hidden="true"></i>
-        <h5>Languages</h5>
-        <h6> Skilled in JavaScript, HTML5, CSS3, Node, MongoDB, MySQL and more.</h6>
+<h3 id="skill"><a name="letstalk" style="color: red">Lets Talk!</a></h3>
+<h6 id="questions">Feel free to reach out to me if there are any questions, comments, or conversations.</h6>
+
+<form class="col s12" action="mailto:robert.j1450@gmail.com" method="POST" enctype="multipart/form-data">
+ 
+  <!--First Name & Email in Form-->
+  <div class="row">
+      <div class="input-field col s6">
+        <i class="material-icons prefix">account_circle</i>
+        <input id="icon_prefix" type="text" class="validate">
+        <label for="icon_prefix">First Name</label>
       </div>
-      <div class="col s4 col-2">
-        <!-- Promo Content 2 goes here -->
-        <i class="fa fa-tablet fa-3x" aria-hidden="true"></i>
-        <h5>Always Responsive</h5>
-        <h6> Experienced developing responsive user friendly websites and web applications.</h6>
-      </div>
-      <div class="col s4">
-        <!-- Promo Content 3 goes here -->
-        <i class="fa fa-code-branch fa-3x" aria-hidden="true"></i>
-        <h5>Collaborator</h5>
-        <h6> Proficiency collaborating in team environments utilizing version control with Git.</h6>
+      <div class="input-field col s6">
+        <i class="material-icons prefix">email</i>
+        <input id="icon_telephone" type="tel" class="validate">
+        <label for="icon_telephone">Email</label>
       </div>
     </div>
+
+<!--Message in Form-->
+<div class="row">
+    <div class="input-field col s12 ">
+      <textarea id="textarea1" class="materialize-textarea "></textarea>
+      <label for="textarea1 ">Message</label>
+    </div>
+  </div>
+
+  </form>
+</div>
+
     <div class="parallax">
       <div>
         <img class="paper" src="assets/images/dark-leather.png">
