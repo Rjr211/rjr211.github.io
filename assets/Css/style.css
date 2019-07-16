@@ -1,3 +1,14 @@
+.material{
+float: left !important;
+
+}
+
+hr.card-line{
+border-color: #ff1744;
+border-width: .5px;
+}
+
+
 .github{
     text-align: center;
 }
