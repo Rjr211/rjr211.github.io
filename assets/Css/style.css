@@ -1,5 +1,35 @@
-.material{
-float: left !important;
+.icons{
+    padding-right: 10px;
+    position: relative;
+}
+
+.online-text{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+
+.online-text-two{
+    font-size: 17px;
+   padding: 5px;
+    display: block;
+    
+}
+
+.card-text-size-two{
+
+    font-size: 18px;
+
+}
+
+.card-text-size{
+    font-size: 18px;
+
+}
+
+.ul-list{
+    margin: 0; padding: 0;
 
 }
 
