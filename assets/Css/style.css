@@ -1,4 +1,9 @@
-a { color: inherit; } 
+a { color: inherit; }
+a:hover 
+{
+     color: #ff1744; 
+     text-decoration: underline;
+}
 
 .icons{
     padding-right: 10px;
